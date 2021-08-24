@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'poppins';
+  max-width: 100vw;
+}
+h1{
+  margin-bottom:40px;
+  font-size: 3rem;
+  color: #fff;
+}
+.playstation{
+  background: url("https://wallpapercave.com/wp/wp6967907.png");
+  width: 50vw;
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition:  1s linear;
+
+}
+
+.layer{
+  position: absolute;
+  background-color: rgba(0, 0, 100, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.ps-button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.xbox{
+  background-image:url("https://wallpaperaccess.com/full/2645305.jpg");
+  width:50vw;
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:  1s linear;
+}
+.buy{
+  height:4rem;
+  width:10rem;
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-width: 0.5rem;
+  border: solid;
+}
+.ps-onHover{
+  width:80vw;
+  transform:scale(1.2);
+}
+.x-onHover{
+  width: 80vw;
+  transform: scale(1.2);
+}
